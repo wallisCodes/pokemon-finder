@@ -1,0 +1,43 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 2rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.form-container {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.form-container input, button {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.error-text {
+    color: "red";
+}
+
+.results-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px dashed black;
+}
+
+.types-container {
+    margin-right: 0.75rem;
+}
+
+.types-sprites {
+    display: flex;
+    gap: 0.5rem;
+}

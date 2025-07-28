@@ -1,0 +1,14 @@
+# Root .gitignore
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Client-specific
+client/.next/
+client/out/
+client/.vercel/
+
+# Server-specific  
+server/node_modules/
+server/.env
