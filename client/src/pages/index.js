@@ -70,7 +70,7 @@ export default function Home() {
             {/* Conditionally render error message */}
             {error && <p className="error-text">{error}</p>}
 
-            {/* Conditionally render weather data */}
+            {/* Conditionally render pokemon data */}
             {pokemon && (
                 <div>
                     <h2>{pokemon.name} (#{pokemon.id})</h2>

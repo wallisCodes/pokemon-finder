@@ -10,10 +10,8 @@ app.use(cors({
 }));
 app.use(express.json());
 
-//
 app.use("/api/pokemon", pokemonRouter);
 
-// define "/api/test" route (returns JSON)
 app.get("/api/test", (req, res) => {
     res.json({ message: "test successful."});
 });
